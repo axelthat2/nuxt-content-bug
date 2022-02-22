@@ -1,3 +1,5 @@
 ---
-title: Junk and damaged vehicles picked up same day for cash
+services:
+  - title: Instant Cash Offers
+  - title: Accept, Schedule, Done.
 ---
