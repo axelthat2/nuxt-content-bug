@@ -1,23 +1,16 @@
 <template>
   <div>
     <p v-for="service in page.services" :key="service.title">
-      {{ service.title }}
+      FROM LAYOUT: {{ service.title }}
     </p>
     <nuxt />
   </div>
 </template>
 
 <script>
+import { contentMixin } from "@/mixins/contentMixin"
+
 export default {
-  name: "IndexPage",
-  data() {
-    return {
-      page: {},
-    }
-  },
-  async fetch() {
-    const page = await this.$content("Home").fetch()
-    this.page = page
-  },
+  mixins: [contentMixin],
 }
 </script>
