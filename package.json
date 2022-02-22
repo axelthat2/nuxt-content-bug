@@ -21,6 +21,7 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@nuxtjs/vercel-builder": "^0.22.1",
     "sass": "1.32.13",
     "sass-loader": "^10.1.1"
   }
