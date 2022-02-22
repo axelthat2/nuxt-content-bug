@@ -1,0 +1,42 @@
+@import "bootstrap/scss/functions";
+@import "./variables";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+// /**
+//   Bootstrap 5 renamed ml, mr, pl, pr to ms, me, ps, pe.
+//   So renaming it back.
+// */
+// $utilities: map-merge(
+//   $utilities,
+//   (
+//     "margin-start":
+//       map-merge(
+//         map-get($utilities, "margin-start"),
+//         (
+//           class: ml
+//         )
+//       ),
+//     "margin-end":
+//       map-merge(
+//         map-get($utilities, "margin-end"),
+//         (
+//           class: mr
+//         )
+//       ),
+//     "padding-start":
+//       map-merge(
+//         map-get($utilities, "padding-start"),
+//         (
+//           class: pl
+//         )
+//       ),
+//     "padding-end":
+//       map-merge(
+//         map-get($utilities, "padding-end"),
+//         (
+//           class: pr
+//         )
+//       )
+//   )
+// );
